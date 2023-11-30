@@ -47,10 +47,9 @@ public class main {
 			
 			// abrimos PRIMERA transaccion. Eso se hace siempre.
 			session.beginTransaction();
-			session.saveOrUpdate(info);
-			session.saveOrUpdate(p);
+			session.saveOrUpdate(info);			
 			session.saveOrUpdate(pas);
-		
+			session.saveOrUpdate(p);
 			session.getTransaction().commit();
 
 			System.out.println("todo ha salido a pedir de Milhouse");

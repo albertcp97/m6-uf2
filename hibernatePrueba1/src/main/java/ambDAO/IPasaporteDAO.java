@@ -1,8 +1,9 @@
 package ambDAO;
 
+import model.Pasaporte;
 import model.Persona;
 
-public interface IPasaporteDAO extends IGenericDao<pasa,Integer>{
+public interface IPasaporteDAO extends IGenericDao<Persona,Integer>{
 
 	
 }
