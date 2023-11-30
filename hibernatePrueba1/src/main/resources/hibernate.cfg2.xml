@@ -10,7 +10,7 @@
 	
         <property name = "hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 		<!-- aixo ho heu de canviar per les vostres dades -->
-		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/gatete</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/gatete2</property>
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">super3</property>
 		<!--Esta es importante y la trataremos mas tarde -->
@@ -21,10 +21,8 @@
 		<property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
 
 		<!-- AQUI POSEU LES CLASSES QUE REPRESENTEN TAULES QUE FEU SERVIR -->
-		<mapping class="model.Persona" />
-		<mapping class="model.Pasaporte" />
-		<mapping class="model.Departamento" />
-		
+		<mapping class="model.Estudiante" />
+		<mapping class="model.Asignatura" />
 		
 		
 	</session-factory>
